@@ -1,2 +1,27 @@
-.venv/
+# Ignore virtualenv directory
+/.venv/
+
+# Ignore PyCharm project files
+/.idea/
+
+# Ignore Django's internal files
+/db.sqlite3
+/django_migrations.py
+
+# Ignore logs and media files
+logs/
+media/
+
+# Ignore Python's cache
 __pycache__/
+
+# Ignore IDE-specific files
+*.pyc
+*.swp
+*~
+
+# Ignore Sphinx documentation build directory
+/docs/_build/
+
+# Ignore pip's wheel cache
+/.wheelhouse/
